@@ -38,6 +38,6 @@ def write_terms_to_markdown(folder_path, name, terms):
 
 
 # Adjust this to your specific folder path
-folder_path = 'Final_vocabulary_work/remaining/arts-and-entertainment'
+folder_path = 'path'
 
 extract_terms_and_name(folder_path)

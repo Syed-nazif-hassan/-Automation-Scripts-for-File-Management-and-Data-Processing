@@ -7,8 +7,8 @@ target_directory = 'path'
 for root, dirs, files in os.walk(target_directory):
     # If there are no subdirectories, we are at the end of a directory
     if not dirs:
-        # Create an empty all-1.json file in this directory
-        json_path = os.path.join(root, 'all-1.json')
+        # Create an empty combined-1.json file in this directory
+        json_path = os.path.join(root, 'combined-1.json')
 
         # Create the file if it doesn't exist yet
         if not os.path.exists(json_path):
